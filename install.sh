@@ -11,4 +11,4 @@ dos2unix /etc/systemd/system/throttlestop.service;
 sudo chmod +x /usr/bin/throttlestop;
 sudo systemctl daemon-reload;
 sudo systemctl enable throttlestop.service;
-reboot;
+/usr/bin/throttlestop;
