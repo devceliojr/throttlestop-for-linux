@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo apt update -y;
 sudo apt upgrade -y;
 sudo apt dist-upgrade -y;
@@ -11,4 +10,4 @@ wget https://raw.githubusercontent.com/devceliojr/throttlestop-for-linux/main/bi
 sudo chmod +x /usr/bin/throttlestop;
 sudo systemctl daemon-reload;
 sudo systemctl enable throttlestop.service;
-reboot
+reboot;
