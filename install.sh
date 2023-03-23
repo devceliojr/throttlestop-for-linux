@@ -1,7 +1,5 @@
 #!/bin/bash
-sudo apt update -y;
-sudo apt upgrade -y;
-sudo apt dist-upgrade -y;
+
 sudo apt install sudo wget dos2unix msr-tools cpufrequtils -y;
 
 wget https://raw.githubusercontent.com/devceliojr/throttlestop-for-linux/main/bin/throttlestop.sh -O /usr/bin/throttlestop;
