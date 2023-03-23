@@ -14,3 +14,4 @@ sudo chmod +x /usr/bin/throttlestop;
 sudo systemctl daemon-reload;
 sudo systemctl enable throttlestop.service;
 reboot;
+
