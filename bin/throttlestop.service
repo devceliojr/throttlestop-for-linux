@@ -8,4 +8,3 @@ ExecStart=/usr/bin/throttlestop
 
 [Install]
 WantedBy=multi-user.target
-
