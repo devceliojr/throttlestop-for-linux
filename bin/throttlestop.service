@@ -1,1 +1,11 @@
-[Unit]Description=ThrottleStop for Linux.[Service]Type=simpleUser=rootExecStart=/usr/bin/throttlestop[Install]WantedBy=multi-user.target
+[Unit]
+Description=ThrottleStop for Linux.
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/throttlestop
+
+[Install]
+WantedBy=multi-user.target
+
